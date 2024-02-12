@@ -357,6 +357,7 @@ hr {
 /* partners */
 .partnerTitleImage {
     width: 100vw;
+    min-width: 980px;
     height: 400px;
     object-fit: cover;
     object-position: left top;
