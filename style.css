@@ -367,15 +367,6 @@ hr {
     transform: translateX(-50%);
 }
 
-#caption {
-    color: white;
-    width: 50%;
-    text-align: left;
-    position: absolute;
-    right: 5%;
-    top: 400px;
-}
-
 .logo {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
