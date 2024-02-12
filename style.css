@@ -224,6 +224,10 @@ footer>p {
     font-family: 'Font', serif;
 }
 
+footer h1 {
+    margin-left: 0.3em;
+}
+
 footer a:active {
     text-decoration: none;
 }
@@ -239,9 +243,10 @@ ul {
 }
 
 #copyright {
-    margin-top: 2em;
-    text-transform: none;
-    color: black;
+    font-family: 'Font', sans-serif;
+    margin: 0.5em;
+    text-transform: uppercase;
+    text-align: right;
 }
 
 #resources {
