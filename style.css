@@ -198,7 +198,7 @@ header>h1 {
 .activeSlide {
     opacity: 1;
     animation-name: slidein;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 
 #homeImage {
