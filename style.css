@@ -307,7 +307,7 @@ button {
     grid-auto-rows: repeat(2, 1fr);
     justify-items: center;
     margin-bottom: 4em;
-    margin-top: 4em;
+    margin-top: 1.5em;
 }
 
 hr {
@@ -330,6 +330,7 @@ hr {
 
 #aboutID {
     color: white;
+    font-size: 2.1em;
     margin: 2em;
     text-transform: uppercase;
     position: absolute;
@@ -341,30 +342,25 @@ hr {
 .aboutPage {
     text-align: right;
     margin-top: 1.5em;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
-.aboutPage1 {
-    text-align: left;
-    margin-top: 1.5em;
-    line-height: 2em;
-}
-
-.aboutImage {
+.aboutImage1 {
     width: 60%;
     height: auto;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
-.aboutImage:nth-child(1) {
+.aboutImage2 {
     width: 60%;
     height: auto;
-    margin-right: 8em;
 }
 
 .aboutTitleImage {
     width: 100vw;
     height: 400px;
+    object-fit: cover;
+    object-position: left middle;
     position: relative;
     top: 0;
     left: 50%;
